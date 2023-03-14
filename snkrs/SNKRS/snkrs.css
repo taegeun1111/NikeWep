@@ -90,8 +90,8 @@ header .nav2 .nav2-list li:first-child{
     margin-left: 430px;
     /* border: 1px solid #000; */
 }
-header .nav2 .nav2-list li:first-child
-,header .nav2 .nav2-list li:hover{
+/* header .nav2 .nav2-list li:first-child */
+header .nav2 .nav2-list li:hover{
     border-bottom: 2px solid #000;
 }
 header .nav2 #look{
