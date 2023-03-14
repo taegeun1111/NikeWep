@@ -1,0 +1,275 @@
+@import url('../../common.css');
+@import url('../html-css/scroll.css');
+@import url('../html-css/color.css');
+
+/* header 시작 */
+body {
+    font-size: 16px;
+    position: relative;
+}
+
+header {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header .delay {
+    height: 60px;
+    background: rgb(243, 243, 243);
+    padding: 20px;
+    text-align: center;
+}
+
+header .delay #more {
+    font-size: 11px;
+    text-decoration: underline;
+    color: #333;
+}
+
+/* header end */
+
+.content {
+    margin: 0 50px;
+
+    position: relative;
+}
+
+/* top-bar begin */
+
+.content .top-bar {
+    box-sizing: border-box;
+    background: #fff;
+
+    position: sticky;
+    top: 0;
+
+}
+
+.content .top-bar .top-box {
+    height: 60px;
+    margin: 20px 20px;
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content .top-bar .top-box .brandnew {
+    font-size: 1.5em;
+    flex: 2;
+}
+
+.content .top-bar .top-box .filter {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content .top-bar .top-box .filter a {
+    font-size: 1.2em;
+    flex: 1;
+}
+.content .top-bar .top-box .filter a svg {
+    width: 10%;
+}
+.content .top-bar .top-box .filter li {
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+
+/* top-bar end */
+
+/* left-nav begin */
+
+.left-nav {
+    width: 17%;
+    height: 800px;
+
+    position: sticky;
+    top: 50px;
+
+    float: left;
+    font-weight: 500;
+    overflow-y: scroll;
+
+}
+
+.left-nav .new #new-option {
+    margin-bottom: 30px;
+    line-height: 0.5;
+}
+
+.left-nav .new #new-option li {
+    display: block;
+
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.left-nav .new #new-option li a {
+    display: block;
+}
+
+.left-nav .multi {
+    position: relative;
+}
+
+.left-nav .multi .all {
+    /* border: 1px solid #000; */
+    /* background: rgb(235, 253, 102); */
+    width: 80%;
+    padding: 15px 0;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+    display: inline-block;   
+    margin-bottom: 15px;
+}
+
+
+
+.left-nav .multi .all svg {
+    width: 8%;
+    float: right;
+    position: absolute;
+    right: 20%;
+
+
+    align-items: center;
+}
+
+.left-nav .multi .checkbox {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.left-nav .multi ul div {
+    height: inherit;
+    padding: 15px 0;
+}
+
+.left-nav .multi .palette {
+
+    height: auto;
+    position: relative;
+
+}
+
+.left-nav .multi .palette #palette-color {
+    width: 100%;
+    font-size: 14px;
+}
+
+.left-nav .multi .palette #palette-color li {
+    width: 80px;
+
+    padding: 20px 5px;
+    height: fit-content;
+
+    text-align: center;
+
+    float: left;
+    display: block;
+}
+
+.left-nav .multi .palette #palette-color li p {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+
+    margin: 0 auto;
+
+}
+
+
+/* 신발 사이즈 */
+.left-nav .multi .size .foot-size {
+    width: 95%;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.left-nav .multi .size .foot-size li {   
+    width: 25%;
+    height: 35px;
+    border: 1px solid #c3c2c2;
+    border-radius: 5px;
+    
+    padding-top: 3px;
+
+    margin: 0 5px 5px;
+    
+    /* display: block; */
+}
+
+.left-nav .multi .size .foot-size li:hover{
+    color: blue;
+    font-weight: 800;
+}
+
+/* left-nav end */
+
+/* item-list begin */
+section .item-list {
+    height: fit-content;
+    float: right;
+    width: 75%;
+    /* background: orange; */
+}
+
+section .item-list .list-box li {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+
+}
+
+section .item-list .list-box li:last-child {
+    margin-right: 0;
+}
+
+section .item-list .list-box li a img {
+    width: 100%;
+}
+
+
+section .item-list .list-box li a p {
+    /* background: tomato; */
+    height: 250px;
+    margin-top: 5px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+section .item-list .list-box li a p em {
+    color: rgb(175, 116, 16);
+    font-weight: 500;
+
+}
+
+section .item-list .list-box li a p span {
+    color: gray;
+    font-weight: 400;
+}
+
+section .item-list .list-box li a p span#disc {
+    text-decoration: line-through;
+}
+
+section .item-list .list-box li a p span#sale {
+    color: rgb(23, 191, 23);
+    font-weight: 500;
+}
+
+
+
+/* item-list end */
