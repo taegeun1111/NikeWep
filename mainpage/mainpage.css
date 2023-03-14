@@ -1,0 +1,144 @@
+/* common */
+.mainpage_wrap {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 50px 50px;
+}
+.mainpage_wrap section div img {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.mainpage_wrap section div,
+.mainpage_wrap section p{
+  text-align: center;
+  color: #111;
+}
+/* button */
+section .button {
+  margin: 30px 0px 80px;
+}
+.button a {
+  padding: 10px 20px;
+  color: white;
+  background: black;
+  border-radius: 30px;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+/* main_p */
+.mainpage_wrap section p .sub_title {
+  font-size: 0.8em;
+  padding-bottom: 7px;
+  font-weight: 500;
+}
+/* main_title */
+.mainpage_wrap section .main_title {
+  font-size: 2.7em;
+  font-weight: 700;
+  padding: 8px 0 15px;
+}
+/* main_text */
+.mainpage_wrap section .main_text {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* main_section8 */
+.mainpage_wrap .main_section8 p {
+  text-align: left;
+  font-size: 1.3em;
+  margin: 20px 0;
+  letter-spacing: 0.5px;
+}
+.mainpage_wrap .main_section8 {
+  margin-bottom: 50px;
+}
+.mainpage_wrap .main_section8 div {
+  display: flex;
+  justify-content: space-between;
+}
+.mainpage_wrap .main_img8 {
+  width: 49.6%;
+}
+
+/* section9 */
+.FeaturedShoes_title {
+  display: flex;
+  align-items: center;
+}
+.mainpage_wrap .FeaturedShoes_title,
+.mainpage_wrap .ApparelEssentials_wrap p {
+  font-size: 1.3em;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.FeaturedShoes_title div {
+  margin-left: auto;
+}
+.FeaturedShoes_title div a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 10em;
+  background: #f5f5f5;
+  font-weight: 100;
+  line-height: 42px;
+  margin-left: 3px;
+  color: #c8c8c8;
+}
+.FeaturedShoes,
+.ApparelEssentials {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.FeaturedShoes li,
+.ApparelEssentials li {
+  width: 32.9%;
+}
+.ApparelEssentials li img{
+  width: 100%;
+}
+
+.FeaturedShoes img {
+  margin-bottom: 18px;
+}
+.FeaturedShoes .product_wrap {
+  display: flex;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+.FeaturedShoes .product_wrap span {
+  color: #757575;
+  font-weight: 300;
+}
+.product_name {
+  text-align: left;
+}
+.product_price {
+  margin-left: auto;
+  padding-right: 15px;
+}
+/* .ApparelEssentials li:last-child img {
+  height: 600px;
+} */
+
+/* section10 */
+.main_section10 {
+  display: flex;
+  justify-content: center;
+  color: #757575;
+  font-size: 0.92em;
+}
+.main_section10 ul {
+  margin-right: 130px;
+  font-weight: 300;
+  line-height: 2.5;
+}
+.main_section10 .section10_title {
+  color: black;
+  padding-bottom: 20px;
+}
