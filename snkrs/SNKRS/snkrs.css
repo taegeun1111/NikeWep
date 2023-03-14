@@ -1,0 +1,175 @@
+@import url('common.css');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Lato:ital,wght@1,100;1,900&family=Noto+Sans+KR:wght@400;500&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* base layout */
+body {
+    background: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    
+}
+
+/* begin header style*/
+/* begin nav1 style */
+header .nav1 {
+    font-size: 1.2em;
+    font-weight: 100;
+    color: #757575; 
+    border-bottom: 1px solid rgb(234, 231, 231);
+    padding: 13px 30px 0;
+}
+header .nav1 #visit {
+    /* border: 1px solid #000; */
+    float: left;
+    height: 30px;
+}
+header .nav1 .right-nav {
+    /* background-color: orange; */
+    float: right;
+}
+header .nav1 .right-nav li {
+    /* border: 3px solid red; */
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+header .nav1 .right-nav li:last-child {
+    margin-left: 0;
+}
+header .nav1 .right-nav #login button{
+    background-color: transparent;
+    border: 0;
+    font-weight: 400;
+    font-size: 1em;
+    color: #757575; 
+}
+/* end nav1 style */
+
+/* begin nav2 style */
+header .nav2 {
+    /* border: 2px solid blue; */
+    font-size: 1.6em;
+    color: #111;
+    border-bottom: 1px solid rgb(234, 231, 231);
+    padding: 0px 25px 0;
+}
+header .nav2 > *{
+     /* border: 3px solid #000; */
+    height: 58px;
+}
+header .nav2 h1
+,header .nav2 .nav2-list {
+    float: left;
+    line-height: 54px;
+    /* line-height 로 칸의 높이 맞춤 */
+}
+header h1 {
+    /* background: yellow; */
+    width: 20%;
+    position: relative;
+}
+header h1 svg {
+    /* border: 1px solid #000; */
+    position: absolute;
+    left: 5px;
+    top: 12px;
+}
+header .nav2 .nav2-list {
+    width: 60%;
+    /* background: orange; */
+}
+header .nav2 .nav2-list li{
+    /* border: 1px solid red; */
+    margin: 0 20px;
+    display: inline-block;
+    transition: opacity 0.2s ease;
+}
+header .nav2 .nav2-list li:first-child{
+    margin-left: 430px;
+    /* border: 1px solid #000; */
+}
+header .nav2 .nav2-list li:first-child
+,header .nav2 .nav2-list li:hover{
+    border-bottom: 2px solid #000;
+}
+header .nav2 #look{
+    width: 20%;
+    float:right;
+    /* background: yellowgreen; */
+    position:relative;
+}
+header .nav2 #look svg{
+    position:absolute;
+    right: 6px;
+    top:20px;
+}
+/* end nav2 style */
+/* end header style*/
+
+/* begin main style */
+.main {
+    width: 97%;
+    margin: 0 auto;
+    /* background: orange; */
+    margin-top: 25px;
+}
+.main .container {
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+}
+.main .container li{
+    /* border: 1px solid #000; */
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    transition: 0.6s;
+}
+.main .container li:hover{
+    opacity:0.8;
+}
+.main .container li:last-child{
+    margin-right: 0;
+}
+.main .container li a{
+    /* background: aqua; */
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.2;
+    height: 820px;
+    /* 높이를 긴 것에 일괄적으로 주기 */
+}
+.main .container li .img-box img{
+    width: 100%;
+}
+.main .container li em{
+    /* border: 1px solid #000; */
+    display: inline-block;
+    margin-top: 25px;
+    padding: 7px 15px;
+}
+.main .container li #black{
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+.main .container li #black:hover{
+    opacity:0.5;
+}
+.main .container li span{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+/* 반응형 웹디자인 맥북m1 13인치 전용
+@media screen and (max-width: 2560px){
+    header .nav2 .nav2-list li:first-child{
+        margin-left: 280px;
+    }
+    .main .container li a{
+        height: 650px;
+    }
+} */

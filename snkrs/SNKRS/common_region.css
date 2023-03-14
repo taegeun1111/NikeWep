@@ -1,0 +1,309 @@
+/* common add */
+.common_wrap {
+  background: #f5f5f5;
+}
+
+/* 좌우 패딩 50px */
+li {
+  list-style: none;
+}
+
+/* ----------------- */
+/* ---section_1st 영역--- */
+.section_1st {
+  display: flex;
+  padding: 10px 50px;
+  justify-content: space-between;
+}
+
+/* end section_1st */
+
+/* > img logo */
+.top_logo a img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+/* end img log */
+
+/* > top_nav */
+.section_1st .top_nav {
+  display: flex;
+}
+
+.section_1st .top_nav ul li a {
+  margin-left: 12px;
+  font-size: 0.7em;
+  /* background-color: pink; */
+  border-left: 1px solid #000;
+  padding-left: 10px;
+}
+
+.section_1st .top_nav ul {
+  display: flex;
+}
+
+.section_1st .top_nav ul li a#noneline {
+  border-left: 0px;
+}
+
+/* end top_nav */
+
+/* -------------------- */
+/* ---section_2nd 영역--- */
+.section_2nd {
+  padding: 5px 50px;
+  align-items: center;
+  display: flex;
+  background: white;
+}
+
+.section_2nd .nike_logo {
+  flex-basis: 20%;
+}
+
+.nike_logo img {
+  width: 60px;
+}
+
+/* medium_content 영역 */
+.section_2nd .medium_content {
+  flex-basis: 60%;
+}
+
+.section_2nd .medium_content ul {
+  display: flex;
+  justify-content: center;
+}
+.section_2nd .medium_content ul li {
+  padding: 0px 13px;
+  font-size: 0.9em;
+  height: 50px;
+  line-height: 50px;
+}
+.section_2nd .medium_content ul li:hover {
+  border-bottom: 2px solid #000;
+  padding-bottom: 30px;
+  transition: border-color 0.1s, color 0.1s;
+  /* padding: 0 10px; */
+  /* padding으로 할 수 있으나 좌우가 움직여버림 */
+  /* hover시 코드 보는법? */
+}
+
+/* end medium_content */
+
+/* last_content 영역 */
+
+.section_2nd .last_content {
+  margin-left: auto;
+  flex-basis: 20%;
+}
+
+.section_2nd .last_content ul {
+  display: flex;
+
+  align-items: center;
+}
+
+.section_2nd .last_content ul li {
+  margin-left: 30px;
+}
+
+.section_2nd .last_content .icon {
+  height: 19px;
+}
+
+/* last_content search검색 영역 */
+.last_content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.last_content div.search {
+  width: 180px;
+  height: 40px;
+  background: #f5f5f5;
+  border-radius: 1.5em;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.last_content div.search:hover {
+  background: #e5e5e5;
+}
+.last_content .search input {
+  /* background-color: #f5f5f5; */
+  background: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  width: 100px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.last_content .search input::placeholder {
+  color: #c4c4c4;
+}
+
+.search #zoom_icon img {
+  height: 18px;
+}
+
+/* end last_content search*/
+
+/* ----------------- */
+/* ---section_3rd 영역--- */
+.section_3rd {
+  text-align: center;
+  font-weight: 200;
+  padding: 10px 0;
+}
+
+.section_3rd p {
+  font-size: 0.9em;
+  padding-bottom: 7px;
+}
+
+.section_3rd div a {
+  font-size: 0.7em;
+  text-decoration: underline;
+}
+
+/* ---end section_3rd */
+
+/* ----------------- */
+/* ---footer영역 common--- */
+footer {
+  background: #111;
+  padding: 40px 280px 0px 280px;
+  vertical-align: top;
+  color: white;
+}
+
+/* section_ul 영역  */
+footer .footer_top_wrap {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+footer .section_ul {
+  display: flex;
+  width: 75%;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+footer .section_ul ul {
+  vertical-align: top;
+  width: 25%;
+}
+
+.section_ul ul li {
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+footer .section_ul ul .font_gray {
+  font-size: 12px;
+  color: #7e7e7e;
+  line-height: 1.2;
+  margin-bottom: 13px;
+  padding-bottom: 0;
+}
+
+/* end section_ul */
+
+/* ul_iconlink 영역 */
+
+footer .ul_iconlink {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+}
+
+footer .ul_iconlink img {
+  width: 30px;
+}
+
+footer .ul_iconlink ul {
+  display: flex;
+}
+
+footer .ul_iconlink ul li {
+  margin-left: 13px;
+}
+/* end ul_iconlink */
+
+/* bottom_1st 영역  */
+
+.bottom_1st {
+  font-size: 13px;
+  display: flex;
+  border-bottom: 1px solid #7e7e7e;
+  padding-bottom: 15px;
+}
+
+.left_1st img {
+  width: 10px;
+  margin-right: 12px;
+  margin-left: 7px;
+}
+.left_1st .copyright {
+  margin-left: 22px;
+  color: #7e7e7e;
+}
+
+.bottom_1st .right_1st {
+  display: flex;
+  margin-left: auto;
+  align-items: end;
+}
+.right_1st ul {
+  display: flex;
+}
+
+.right_1st ul li {
+  margin-left: 22px;
+  color: #7e7e7e;
+}
+.right_1st ul li:nth-of-type(2) {
+  color: white;
+}
+
+/* end bottom_1st  */
+
+/* bottom_2nd 영역 */
+.bottom_2nd {
+  padding-top: 17px;
+  font-size: 0.64em;
+  line-height: 1.5;
+  display: flex;
+  padding-bottom: 22px;
+  color: #7e7e7e;
+  letter-spacing: 0.02em;
+}
+.bottom_2nd .left_2nd {
+  flex-basis: 50%;
+  padding: 8px 8px 8px 0;
+}
+
+.bottom_2nd .left_2nd p:nth-of-type(1) {
+  margin-bottom: 12px;
+}
+.bottom_2nd a {
+  text-decoration: underline;
+  color: #ccc;
+}
+
+.bottom_2nd .right_2nd {
+  flex-basis: 50%;
+  padding: 8px 0px 8px 8px;
+}
+.bottom_2nd .right_2nd p:nth-of-type(1) {
+  margin-bottom: 12px;
+}
+.bottom_2nd .right_2nd p:nth-of-type(2) a {
+  margin-left: 10px;
+}
+/* end bottom_2nd */
