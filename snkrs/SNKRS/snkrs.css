@@ -35,11 +35,7 @@ header .nav1 .right-nav li {
     margin-left: 20px;
 }
 header .nav1 .right-nav #login button{
-    background-color: transparent;
-    border: 0;
-    font-weight: 300;
-    font-size: 1em;
-    color: #757575; 
+    all: unset;
 }
 /* end nav1 style */
 
